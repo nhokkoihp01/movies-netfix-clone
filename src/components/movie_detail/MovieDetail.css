@@ -1,0 +1,94 @@
+.ant-modal {
+    width: 90% !important;
+    overflow: hidden;
+    overflow-y: hidden;
+
+}
+
+
+.ReactModal__Content--after-open {
+
+    opacity: 1;
+    transition: opacity 2000ms ease-in-out !important;
+    animation: fadeIn linear 0.3s;
+
+
+}
+
+.ReactModal__Content --before-close {
+    opacity: 0;
+}
+
+.container {
+
+}
+
+.movieInfo {
+    width: 65%;
+    padding-left: 24px;
+}
+
+.movieTitle {
+    color: var(--while-color);
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+.statistical {
+    display: flex;
+    align-items: center;
+}
+
+.rating {
+    color: var(--green-color);
+    font-size: 1.8rem;
+    margin-right: 14px;
+}
+
+.popularity {
+    color: gold;
+    font-size: 1.8rem;
+}
+
+.releaseDate, .runTime {
+    font-size: 1.8rem;
+    color: var(--while-color);
+}
+
+.overview {
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.4;
+    font-size: 1.8rem;
+}
+
+@media screen and (max-width: 768px) {
+    .ReactModal__Content {
+        height: 70% !important;
+    }
+
+    .movieInfo {
+        width: 80% !important;
+
+    }
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        top: 0;
+    }
+    to {
+        opacity: 1;
+        top: 25%;
+
+    }
+
+}
+
+
+
+
+
+

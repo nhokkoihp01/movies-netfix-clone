@@ -1,0 +1,37 @@
+/*Mobile and Table*/
+/*BEGIN max with 1023 px*/
+@media (max-width: 63.9375em) {
+    :root{
+
+    }
+    .hide-on-mobile-tablet{
+        display: none;
+    }
+
+
+
+
+}
+/*END max with 1023 px*/
+
+/*Table*/
+/*BEGIN max with 740 AND max with 1023x*/
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .hide-on-tablet {
+        display: none;
+
+    }
+
+}
+/*END max with 740 AND max with 1023x*/
+/*Mobile*/
+/*BEGIN max with 739px */
+@media (max-width: 46.1875em) {
+    .hide-on-mobile{
+        display: none;
+    }
+
+
+
+}
+/*END max with 739px */

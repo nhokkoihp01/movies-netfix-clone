@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #E6400C;
+    --while-color: #fff;
+    --background-color:rgb(17,17,17);
+    --dark-color:rgb(23,24,24);
+    --green-color:rgb(92,223,92);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    color: #3e4d5c;
+    font-family: 'Ubuntu', sans-serif;
+    background: #fff;
+
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+
+}
